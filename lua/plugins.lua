@@ -68,4 +68,12 @@ return require('packer').startup(function(use)
   -- Snippets
   use {'L3MON4D3/LuaSnip'}
   use {'rafamadriz/friendly-snippets'}
+
+  -- Terminal
+  use {"akinsho/toggleterm.nvim", tag = '*'}
+  require('toggleterm').setup({
+    open_mapping = '<C-g>',
+    direction = 'horizontal',
+    shade_terminals = true
+  })
 end)
