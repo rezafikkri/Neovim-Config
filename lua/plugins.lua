@@ -76,4 +76,9 @@ return require('packer').startup(function(use)
     direction = 'horizontal',
     shade_terminals = true
   })
+  -- Comment
+  use 'numToStr/Comment.nvim'
+  require('Comment').setup()
+  -- Ident Blankline
+  use 'lukas-reineke/indent-blankline.nvim'
 end)
