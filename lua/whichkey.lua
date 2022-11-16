@@ -22,4 +22,3 @@ local presets = require("which-key.plugins.presets")
 presets.operators["v"] = nil
 presets.operators["d"] = nil
 presets.operators["y"] = nil
-presets.operators["g"] = nil
