@@ -8,4 +8,8 @@ vim.g.loaded_netrwPlugin = 1
 vim.opt.termguicolors = true
 
 -- OR setup with some options
-require("nvim-tree").setup()
+require("nvim-tree").setup({
+  git = {
+    ignore = false,
+  }
+})

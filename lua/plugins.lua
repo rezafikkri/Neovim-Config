@@ -81,17 +81,4 @@ return require('packer').startup(function(use)
   require('Comment').setup()
   -- Ident Blankline
   use 'lukas-reineke/indent-blankline.nvim'
-
-  -- Git
-  use {'lewis6991/gitsigns.nvim'}
-  use {'tpope/vim-fugitive'}
-  require('gitsigns').setup({
-    signs = {
-      add = {text = '▎'},
-      change = {text = '▎'},
-      delete = {text = '➤'},
-      topdelete = {text = '➤'},
-      changedelete = {text = '▎'},
-    }
-  })
 end)
