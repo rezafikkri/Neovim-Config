@@ -5,7 +5,8 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
   -- color schema
-  use 'folke/tokyonight.nvim'
+  -- use 'folke/tokyonight.nvim'
+  use 'navarasu/onedark.nvim'
   -- nvim tree sitter
   use {
     'nvim-treesitter/nvim-treesitter',
@@ -24,7 +25,7 @@ return require('packer').startup(function(use)
       component_separators = '|',
       ignore_focus = { "NvimTree" },
       icons_enabled = true,
-      theme = 'tokyonight'
+      theme = 'onedark'
     },
     sections = {
       lualine_b = {'branch', 'diff'}

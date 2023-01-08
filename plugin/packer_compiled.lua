@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "/home/rezafikkri/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["gruvbox-material"] = {
+    loaded = true,
+    path = "/home/rezafikkri/.local/share/nvim/site/pack/packer/start/gruvbox-material",
+    url = "https://github.com/sainnhe/gruvbox-material"
+  },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "/home/rezafikkri/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
@@ -203,11 +208,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/rezafikkri/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
-  },
-  ["tokyonight.nvim"] = {
-    loaded = true,
-    path = "/home/rezafikkri/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
-    url = "https://github.com/folke/tokyonight.nvim"
   },
   ["which-key.nvim"] = {
     loaded = true,
