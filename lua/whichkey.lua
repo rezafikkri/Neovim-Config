@@ -12,7 +12,8 @@ local mappings = {
   ["]"] = {"<Cmd>BufferNext<CR>", "Next Buffer"},
   ftp = {":set ft=php<CR>", "Set File Type to PHP"},
   fth = {":set ft=html<CR>", "Set File Type to HTML"},
-  ftj = {":set ft=javascript<CR>", "Set File Type to Javascript"}
+  ftj = {":set ft=javascript<CR>", "Set File Type to Javascript"},
+  ftr = {":set ft=javascriptreact<CR>", "Set File Type to Javascriptreact"}
 }
 local opts = {
   prefix="<leader>"
